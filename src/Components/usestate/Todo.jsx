@@ -20,7 +20,7 @@ export const Todo = () => {
             <div>
                 <input className='border border-black rounded-md' value={input} onChange={text} />
                 <button className='ml-2 px-4 py-1 bg-fuchsia-400 rounded-md' onClick={submit}>Add</button>
-                <ul>
+                <ul> 
                     {todos.map((todo, index) => (
                         <li>
                             {todos}
