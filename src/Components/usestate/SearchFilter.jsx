@@ -6,7 +6,7 @@ export const SearchFilter = () => {
 
     const filter = (e) => setInputValue(e.target.value);
     const filteredItems = items.filter(item => item.toLowerCase().includes(inputValue.toLowerCase()));
-
+    
   return (
     <div className="max-w-sm rounded  shadow-lg border h-auto px-4 py-1 ">
         <input className='border border-black rounded-md' value={inputValue} onChange={filter} />
