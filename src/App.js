@@ -4,6 +4,7 @@ import { CharacterCount } from './Components/usestate/CharacterCount';
 import { ColorSwitch } from './Components/usestate/ColorSwitch';
 import { ControlInput } from './Components/usestate/ControlInput';
 import { Counter } from './Components/usestate/Counter';
+import { SearchFilter } from './Components/usestate/SearchFilter';
 import { Todo } from './Components/usestate/Todo';
 import { Toggle } from './Components/usestate/Toggle';
 
@@ -17,6 +18,7 @@ function App() {
       <CharacterCount />
       <Todo />
       <ColorSwitch />
+      <SearchFilter />
       
     </div>
   );
